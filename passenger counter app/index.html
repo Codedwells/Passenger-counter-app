@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript practice</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js"></script>
+</head>
+<body>
+    <section id="UI-flex">
+        <div class="counter-UI">
+            <div >
+                <p class="label">Passengers Counter:</p>
+            </div>
+            <div id="num-count">
+                0
+            </div>
+            <div  class="alert-button-container">
+                <button class="alert-btn" onclick="increment()">Increment</button>
+                <button class="saved-btn" onclick ="saveData()">Save</button>
+                <button class="alert-btn" onclick="clearData()">Clear</button>
+                <button class="alert-btn" onclick="showCurrentCount()">Saved</button>
+            </div>
+            <div id="savedCounts">
+                Previous counts: 
+            </div>
+                
+        </div>
+</section>
+</body>
+</html>
